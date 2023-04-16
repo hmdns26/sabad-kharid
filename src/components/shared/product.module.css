@@ -1,0 +1,59 @@
+.container {
+    width: 250px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    margin:  0 10px 50px;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+.cardImage {
+    width: 230px;
+    height: 200px;
+    margin: 10px;
+}
+.container h3 {
+    color:  #404040;
+    text-align: left;
+    margin: 25px 20px 15px;
+    font-size: 1.1rem;
+}
+.container p {
+    color: #404040;
+    text-align: left;
+    margin: 15px 20px ;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.linkContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 20px 20px;
+}
+.linkContainer a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 0.95rem;
+}
+.buttonContainer button{
+    font-size: 0.9rem;
+    background-color: #1a73e8;
+    border: none;
+    color: #fff;
+    height: 30px;
+    width: 120px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: rgba(50, 50, 93, 0.25),
+    rgba(0, 0, 0, 0.3);
+    margin-left: 5px;
+}
+.smallButton{
+    width: 30px !important;
+    font-size: 1.6rem !important;
+    font-weight: bold;
+    line-height: 30px;
+}

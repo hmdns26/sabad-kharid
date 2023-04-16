@@ -5,11 +5,11 @@ import styles from './navbar.module.css';
 const Navbar = () => {
     const {state}=useContext(cartContext)
     return (
-        <div>
-            <div>
-                <Link to ="/products">products</Link>
-                <div>
-                    <Link to ="/cart"><p>shop cart</p></Link>
+        <div className={styles.mainContainer}>
+            <div className={styles.container}>
+                <Link className={styles.productLink} to ="/products">products</Link>
+                <div className={styles.iconContainer}>
+                    <Link className={styles.productLink} to ="/cart"><p>shop</p></Link>
                     <span>{state.itemsCounter}</span>
                 </div>
             </div>
